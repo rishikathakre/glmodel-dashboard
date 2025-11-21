@@ -109,7 +109,7 @@ ax.plot(L_range, z_v1, label='v = 0.1 (Low Vuln)', color='gray', linestyle='-.',
 ax.plot(L_range, z_user, label=f'Current User Input (v={v_input})', color='blue', linewidth=2)
 
 # Plot the specific user point
-ax.scatter([L_input], [optimal_z], color='red', zorder=5, s=100, label="Your Selection")
+ax.scatter([L_input], [optimal_z], color='yellow', zorder=5, s=100, label="Your Selection")
 
 # Add NIST Tier Threshold lines (Horizontal) as seen in Figure 1
 ax.axhline(y=7, color='purple', linestyle='-', linewidth=0.8, alpha=0.5)
